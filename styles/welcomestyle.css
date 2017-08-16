@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+* {
+  margin: 0;
+}
+
+nav {
+  height: 50vw;
+  width: 100vw;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 60px;
+  list-style: none;
+  width: auto;
+}
+
+nav li {
+  padding-top: 25vw;
+}
+
+nav a {
+  color: DodgerBlue;
+  font-family: 'Amatic SC';
+  font-size: 30px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: DodgerBlue;
+}
+
+nav a:hover {
+  color: Black;
+  cursor: crosshair;
+  font-weight: 600;
+}
+
+body {
+  background-image: url('../images/wht_ball_background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
