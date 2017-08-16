@@ -7,28 +7,53 @@
 }
 
 body {
-  background-image: url('../images/main_background.jpg');
+  background-image: url('../images/wht_ball_background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.nav {
+  background-color: White;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  margin: 5px;
+}
+
+.nav1 {
+  float: left;
+}
+
+.nav2 {
+  float: right;
+  padding: 0;
+}
+
+.bio {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
 .intro {
-  display: grid;
-  margin: 5% 15% 15% 15%;
+  margin-top: 15%;
+  width: 50%;
 }
 
-.intro-text {
-  border: 1px solid Black;
-  border-radius: 5px;
-  color: White;
-  font-family: 'Roboto';
-  font-size: 16px;
-  grid-column: 2/2;
-  padding: 10px;
+.world {
+  text-align: right;
 }
 
-.prof-pic img {
-  grid-column: 1/2;
-  height: 400px;
-  width: 300px;
+.contact {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.email {
+  margin-top: 15%;
+  text-align: center;
+  width: 50%;
 }
