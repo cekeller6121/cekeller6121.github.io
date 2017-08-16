@@ -51,8 +51,16 @@ nav a {
   width: 100%;
 }
 
-.full-stack {
+.weeks {
   width: 33%;
+}
+
+.weeks img {
+  width: 100%;
+}
+
+.week4 {
+  margin-top: 10px;
 }
 
 .contact {
