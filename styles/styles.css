@@ -46,6 +46,15 @@ nav a {
   text-align: right;
 }
 
+.portfolio {
+  margin: 2%;
+  width: 100%;
+}
+
+.full-stack {
+  width: 33%;
+}
+
 .contact {
   display: flex;
   justify-content: center;
