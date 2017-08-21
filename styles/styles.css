@@ -12,10 +12,9 @@ body {
   background-size: cover;
 }
 
-.nav {
+nav {
   background-color: White;
-  display: flex;
-  justify-content: space-between;
+  display: inline-block;
 }
 
 nav a {
@@ -35,43 +34,6 @@ nav a {
 
 .world {
   text-align: right;
-}
-
-.portfolio {
-  display: grid;
-  grid-auto-columns: 2;
-  margin: 2% 2% 0 2%;
-  width: 96%;
-}
-
-.port-left {
-  display: flex;
-  flex-direction: column;
-  grid-column: 1/2;
-}
-
-.port-right {
-  align-items: flex-end;
-  display: flex;
-  flex-direction: column;
-  grid-column: 2/2;
-}
-
-.weeks h3 {
-  text-align: center;
-}
-
-.weeks {
-  width: 50%;
-}
-
-.weeks img {
-  width: 100%;
-  height: auto;
-}
-
-.week4 {
-  margin-top: 10px;
 }
 
 .contact {
