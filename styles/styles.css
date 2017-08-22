@@ -51,7 +51,7 @@ nav {
   letter-spacing: .8px;
   margin-top: 15%;
   padding: 10px;
-  text-align: justify;
+  text-align: left;
   width: 50%;
 }
 
@@ -87,4 +87,10 @@ nav {
   padding: 10px;
   text-align: center;
   width: 50%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 699px) {
+    .intro, .about, .projects, .contact-links {
+      width: 75%;
+    }
 }
