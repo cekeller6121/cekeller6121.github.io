@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 
 
 * {
@@ -18,7 +18,7 @@ nav {
   padding: 5px;
 }
 
-.bio {
+.welcome-text {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -36,14 +36,55 @@ nav {
   text-align: right;
 }
 
-.contact {
+.bio {
   display: flex;
   justify-content: center;
   width: 100%;
 }
 
-.email {
+.about {
+  background-color: rgba(91, 128, 137, 0.5);
+  border-radius: 10px;
+  color: LavenderBlush;
+  font-family: 'Open Sans Condensed';
+  font-size: 20px;
+  letter-spacing: .8px;
   margin-top: 15%;
+  padding: 10px;
+  text-align: justify;
+  width: 50%;
+}
+
+.portfolio {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.projects {
+  background-color: rgba(91, 128, 137, 0.5);
+  border-radius: 10px;
+  color: LavenderBlush;
+  margin-top: 15%;
+  padding: 10px;
+  text-align: center;
+  width: 50%;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-links a {
+  color: Black;
+}
+
+.contact-links {
+  background-color: rgba(91, 128, 137, 0.5);
+  border-radius: 10px;
+  margin-top: 15%;
+  padding: 10px;
   text-align: center;
   width: 50%;
 }
