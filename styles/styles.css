@@ -10,9 +10,14 @@ body {
 }
 
 nav {
-  background-color: White;
   display: inline-block;
   padding: 5px 5px 5px 10px;
+  text-align: right;
+}
+
+nav a {
+  color: Black;
+  text-align: right;
 }
 
 .welcome-text {
